@@ -72,7 +72,6 @@
 					<li><a href="#aboutUs" class="scroll-link">ABOUT</a></li>
 					<li><a href="#services" class="scroll-link">MAPS</a></li>
 					<li><a href="#portfolio" class="scroll-link">SYMPTOMS CHECKER</a></li>
-					<li><a href="#team" class="scroll-link">DEVELOP</a></li>
 					<li><a href="#contactUs" class="scroll-link">Doctors</a></li> 
 	            </ul>
 	        </div>
@@ -108,7 +107,6 @@
 								<h2 class="text-center titles">About</h2>	
                                      <hr />							 
 								<p class="tekst" style="color: #858585">
-								<!--<span class="centerspan"></span>-->
                                    Having medical issues? <br />
 Here you can discover how environment can affect you and your health. 
 
@@ -131,12 +129,10 @@ can help you. Give us information about your symptoms and we will give you all t
 		<div class="row">
                 <div class="heading text-center col-md-12 col-xs-12">
 								<h2 class="titles">Maps</h2> 
-								<!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>-->
-							</div>                            
+								</div>                            
             </div>
 
 					<div class="row mrgn30">
-                     <!--<div class="col-sm-5"> -->
                                 <iframe src="https://worldview.earthdata.nasa.gov/" style="width: 100%; height: 600px;"></iframe>
                         </div>
         </div>
@@ -157,8 +153,7 @@ can help you. Give us information about your symptoms and we will give you all t
 
                                 </h2>
                                 <p class="auto-style3">&nbsp;</p>								
-								<!--<p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>-->
-							</div>
+								</div>
 					
                           <div class="row">
 
@@ -175,6 +170,7 @@ can help you. Give us information about your symptoms and we will give you all t
             <div class="row">
             </div>
 
+<h2>Find a doctor</h2> 	
             <table align="center" class="auto-style5">
                 <tr>
                     <td class="auto-style4" rowspan="7">
@@ -244,8 +240,11 @@ can help you. Give us information about your symptoms and we will give you all t
                     </td>
                 </tr>
             </table>
-			
-			
+=======
+            <div class="row">
+
+                                						
+		
         </div><!--/.container-->
 	<!--/.container-->	
 </footer>
