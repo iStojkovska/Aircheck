@@ -30,11 +30,19 @@
         height: 172px;
     }
     .auto-style4 {
-        width: 387px;
+        width: 542px;
     }
     .auto-style5 {
-        width: 117%;
+        width: 100%;
         height: 328px;
+       
+    }
+
+
+
+    #doc{
+         padding-left: 10%;
+
     }
     .auto-style6 {
         width: 259px;
@@ -44,7 +52,20 @@
         margin-left: 0;
     }
     .auto-style8 {
-        width: 153px;
+        width: 64px;
+    }
+    
+    .btn-lg{
+        margin-top: 2%;
+        margin-bottom: 2%;
+         color: #fff;
+         background-color:  #1371AF;
+    }
+
+
+   
+    .auto-style9 {
+        margin-left: 57;
     }
 
 
@@ -166,7 +187,7 @@ can help you. Give us information about your symptoms and we will give you all t
 </section> 
 
 <footer class="page-section darkBg" id="contactUs">
-	<div class="container">
+	<div class="container" id="doc">
             <div class="row">
             </div>
 
@@ -174,10 +195,10 @@ can help you. Give us information about your symptoms and we will give you all t
             <table align="center" class="auto-style5">
                 <tr>
                     <td class="auto-style4" rowspan="7">
-                        <asp:ListBox ID="ListBox1" runat="server" Height="290px" Width="94%"></asp:ListBox>
+                        <asp:ListBox ID="ListBox1" runat="server" Height="290px" Width="78%" CssClass="auto-style9" Font-Size="Medium"></asp:ListBox>
                     </td>
                     <td class="auto-style8">
-                        <asp:Label ID="Label1" runat="server" Text="Name:" ></asp:Label>
+                        <asp:Label ID="Label1" runat="server" Text="Name:" Font-Size="X-Large" ></asp:Label>
                     </td>
                     <td class="auto-style6">
                         <asp:TextBox ID="TextBox1" runat="server" CssClass="doclbx"></asp:TextBox>
@@ -185,7 +206,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 </tr>
                 <tr>
                     <td class="auto-style8">
-                        <asp:Label ID="Label2" runat="server" Text="Email:"></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text="Email:" Font-Size="X-Large"></asp:Label>
                     </td>
                     <td class="auto-style6">
                         <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style7"></asp:TextBox>
@@ -193,7 +214,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 </tr>
                 <tr>
                     <td class="auto-style8">
-                        <asp:Label ID="Label3" runat="server" Text="Phone:"></asp:Label>
+                        <asp:Label ID="Label3" runat="server" Text="Phone:" Font-Size="X-Large"></asp:Label>
                     </td>
                     <td class="auto-style6">
                         <asp:TextBox ID="TextBox3" runat="server" CssClass="doclbx"></asp:TextBox>
@@ -201,7 +222,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 </tr>
                 <tr>
                     <td class="auto-style8">
-                        <asp:Label ID="Label4" runat="server" Text="City:"></asp:Label>
+                        <asp:Label ID="Label4" runat="server" Text="City:" Font-Size="X-Large"></asp:Label>
                     </td>
                     <td class="auto-style6">
                         <asp:TextBox ID="TextBox4" runat="server" CssClass="doclbx"></asp:TextBox>
@@ -209,7 +230,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 </tr>
                 <tr>
                     <td class="auto-style8">
-                        <asp:Label ID="Label5" runat="server" Text="Address:"></asp:Label>
+                        <asp:Label ID="Label5" runat="server" Text="Address:" Font-Size="X-Large"></asp:Label>
                     </td>
                     <td class="auto-style6">
                         <asp:TextBox ID="TextBox5" runat="server" CssClass="doclbx"></asp:TextBox>
@@ -217,7 +238,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 </tr>
                 <tr>
                     <td class="auto-style8">
-                        <asp:Label ID="Label6" runat="server" Text="Hospital:"></asp:Label>
+                        <asp:Label ID="Label6" runat="server" Text="Hospital:" Font-Size="X-Large"></asp:Label>
                     </td>
                     <td class="auto-style6">
                         <asp:TextBox ID="TextBox6" runat="server" CssClass="doclbx"></asp:TextBox>
@@ -225,7 +246,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 </tr>
                 <tr>
                     <td class="auto-style8">
-                        <asp:Label ID="Label7" runat="server" Text="Admitting:"></asp:Label>
+                        <asp:Label ID="Label7" runat="server" Text="Admitting:" Font-Size="X-Large"></asp:Label>
                     </td>
                     <td class="auto-style6">
                         <asp:TextBox ID="TextBox7" runat="server" CssClass="doclbx"></asp:TextBox>
@@ -233,19 +254,14 @@ can help you. Give us information about your symptoms and we will give you all t
                 </tr>
                 <tr>
                     <td class="auto-style4">
-                        <asp:Button ID="Button1" runat="server" Text="Add a new Doctor" />
+                        <asp:Button ID="Button1" runat="server" Text="Add a new Doctor" class=btn-lg/>
                     </td>
                     <td class="auto-style6" colspan="2">
-                        <asp:Button ID="Button2" runat="server" Text="Save doctor" />
+                        <asp:Button ID="Button2" runat="server" Text="Save doctor" class="btn-lg"/>
                     </td>
                 </tr>
             </table>
-=======
-            <div class="row">
-
-                                						
-		
-        </div><!--/.container-->
+            <!--/.container-->
 	<!--/.container-->	
 </footer>
 <!--/.page-section-->
