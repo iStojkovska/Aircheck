@@ -62,8 +62,6 @@
          background-color:  #1371AF;
     }
 
-
-   
     .auto-style9 {
         margin-left: 57;
     }
