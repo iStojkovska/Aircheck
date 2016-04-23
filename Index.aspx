@@ -24,14 +24,14 @@
     <header class="header">
 	<div class="container">
 		<nav class="navbar navbar-inverse" role="navigation">
-        	<div class="navbar-header">
+        	<div class="navbar-header" style="height: 70px;">
 	            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
 		            <span class="sr-only">Toggle navigation</span>
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
 	            </button>
-	            <a href="#" class="navbar-brand scroll-top logo"><img src="images/logo-ek2.png" alt="skytouch" height="70" width="70" style="vertical-align: top !important;" /></a>
+	            <a href="#" class="navbar-brand scroll-top logo"><img src="images/logo-ek2.jpg" alt="skytouch" height="70" width="130" style="vertical-align: top !important;"/></a>
         	</div>
         	<!--/.navbar-header-->
 	        <div id="main-nav" class="collapse navbar-collapse">
@@ -58,49 +58,11 @@
 		<div class="naslov">
 			<h1>
 				AIRCHECK
-			<h1>	
+			</h1>	
 		</div>
-            <!-- <div class="container banner-content">
-		    <h1>Responsive Page Scrolling<br/><span>with Bootstrap</span></h1>
-		    <p class="lead">Use the navigation above to scroll to different page sections.</p>		   
-		    <p><a href="#about" class="button-outline"> More.. </a></p>
-               <div id="da-slider" class="da-slider">
-				<div class="da-slide">
-					<h2>ЗА НАС</h2>
-					<p>Е - КОНТРОЛ ИКК СКОПЈЕ е ...</p>
-					<a href="#aboutUs" class="da-link button-outline">ПОСЕТИ</a>
-					<div class="da-img"></div>
-				</div>
-				<div class="da-slide">
-					<h2>УСЛУГИ</h2>
-					<p>Вршиме технички преглед и периодични испитувања на ...</p>
-					<a href="#services" class="da-link button-outline">ПОСЕТИ</a>
-					<div class="da-img"></div>
-				</div>
-				<div class="da-slide">
-					<h2>КЛИЕНТИ</h2>
-					<p>Ова се нашите клиенти ...</p>
-					<a href="#portfolio" class="da-link button-outline">ПОСЕТИ</a>
-					<div class="da-img"></div>
-				</div>
-				<div class="da-slide">
-					<h2>СЕРТИФИКАТИ</h2>
-					<p>Ги имаме следниве сертификати ...</p>
-					<a href="#team" class="da-link button-outline">ПОСЕТИ</a>
-					<div class="da-img"></div>
-				</div>
-				<div class="da-slide">
-					<h2>КОНТАКТ</h2>
-					<p>Контактирајте не и оставете забелешка.</p>
-					<a href="#contactUs" class="da-link button-outline">ПОСЕТИ</a>
-					<div class="da-img"></div>
-				</div>
-				<nav class="da-arrows">
-					<span class="da-arrows-prev"></span>
-					<span class="da-arrows-next"></span>
-				</nav>
-			</div>
-	    </div> -->
+           <div class="container banner-content">
+		    
+	    </div>
     </div>	
     <!--/.container-->
 </section> 
@@ -109,49 +71,20 @@
 	<div class="container">
 							    <div class="heading">
 								<!-- Heading -->
-								<h2 class="text-center">ЗА НАС</h2>								 
-								<p class="tekst">
-								Е - КОНТРОЛ ИКК СКОПЈЕ е акредитирано инспекциско тело - ТИП А за вршење на технички прегледи и периодични испитувања на електроенергетски постројки, електрични производи и уреди.</p>
-                                <p class="tekst">Е - КОНТРОЛ ИКК СКОПЈЕ исполнувајќи ги барањата од Правилникот за користење на електроенергетски постројки и електрична опрема (Службен весник на РМ бр.140/2010) и Законот за техничка инспкеција (Службен весник на РМ бр.88/2008), се има здобиено со сертификат за акредитација издаден од ИАРМ и Решение за исполнетост на условите за вршење на технички прегледи и периодични испитувања на техничка опрема издадено од Министерство за економија на Република Македонија.</p>
-                                <p class="tekst">Зашто ние? Инспекциското тело Е-КОНТРОЛ ИКК со добра професионална пракса реализира високо квалитетни, ефикасни и навремени инспекции, со почитување на законските регулативи, прописи, меѓународниот стандард за инспекциски тела ISO/IEC 17020:2012, како и барањата на клиентот. 
+								<h2 class="text-center">About</h2>								 
+								<p class="tekst" style="color: #858585">
+								Having medical issues?
+Here you can discover how environment can affect you and your health. 
+
+Due to enviromental changes people suffer from various diseases and allergies. There are many countries in the world where health care system is not developed. 
+As a result, there are a lot of patients, who don't know how to handle this sort of issues. That has inspired us to make a platform, which can be useful and fast 
+solution. According to the enviromental changes we created a map, which shows you the possible symptoms of allergies.Even more you can find a doctor near you that
+can help you.Give us information about your symptoms and we will give you all the information you need.
+
 								</p>														
 							</div>
 							
-								<!--<div class="row">
-									<div class="col-md-3 col-sm-6">	
-                                    <div class="tray text-center">											
-											<h3><i class="fa fa-desktop color"></i> &nbsp;HTML5/CSS3</h3>
-											
-											<p>Duis aute irure dolor in repreh enderit in voluptate velit esse cillum dolore pariatur.</p>										
-									 </div>
-                                    </div>
-									<div class="col-md-3 col-sm-6">	
-                                    <div class="tray text-center">											
-											
-											<h3><i class="fa fa-cloud color"></i> &nbsp;Bootstrap</h3>
-											
-											<p>Duis aute irure dolor in repreh enderit in voluptate velit esse cillum dolore pariatur.</p> 										
-									 </div>
-                                    </div>
-									<div class="col-md-3 col-sm-6">	
-                                    <div class="tray text-center">											
-											
-											<h3><i class="fa fa-home color"></i> &nbsp;Single Page</h3>
-											
-											<p>Duis aute irure dolor in repreh enderit in voluptate velit esse cillum dolore pariatur.</p> 										
-									 </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6">		
-                                    <div class="tray text-center">								
-											
-											<h3><i class="fa fa-coffee color"></i> &nbsp;Responsive</h3>
-											
-											<p>Duis aute irure dolor in repreh enderit in voluptate velit esse cillum dolore pariatur.</p> 	
-                                            </div>									
-									</div>
-								</div>
-							</div>-->
-	<!--/.container-->
+								
 </section>
  
 
