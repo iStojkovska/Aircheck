@@ -52,7 +52,6 @@
 					<li><a href="#aboutUs" class="scroll-link">ABOUT</a></li>
 					<li><a href="#services" class="scroll-link">MAPS</a></li>
 					<li><a href="#portfolio" class="scroll-link">SYMPTOMS CHECKER</a></li>
-					<li><a href="#team" class="scroll-link">DEVELOP</a></li>
 					<li><a href="#contactUs" class="scroll-link">Doctors</a></li> 
 	            </ul>
 	        </div>
@@ -88,7 +87,6 @@
 								<h2 class="text-center titles">About</h2>	
                                      <hr />							 
 								<p class="tekst" style="color: #858585">
-								<!--<span class="centerspan"></span>-->
                                    Having medical issues? <br />
 Here you can discover how environment can affect you and your health. 
 
@@ -111,12 +109,10 @@ can help you. Give us information about your symptoms and we will give you all t
 		<div class="row">
                 <div class="heading text-center col-md-12 col-xs-12">
 								<h2 class="titles">Maps</h2> 
-								<!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>-->
-							</div>                            
+								</div>                            
             </div>
 
 					<div class="row mrgn30">
-                     <!--<div class="col-sm-5"> -->
                                 <iframe src="https://worldview.earthdata.nasa.gov/" style="width: 100%; height: 600px;"></iframe>
                         </div>
         </div>
@@ -178,8 +174,7 @@ can help you. Give us information about your symptoms and we will give you all t
 
                                 </h2>
                                 <p class="auto-style3">&nbsp;</p>								
-								<!--<p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>-->
-							</div>
+								</div>
 					
                           <div class="row">
 
@@ -226,7 +221,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px"/>
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">вртливи машини (мотори и генератори)</h3>
@@ -262,7 +257,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px"/>
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">акумулаторска батерија</h3>
@@ -276,7 +271,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px"/>
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">енергетски кабли</h3>
@@ -287,7 +282,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px"/>
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">собирници и одводници</h3>
@@ -298,7 +293,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px"/>
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">кондензатори</h3>
@@ -312,7 +307,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px"/>
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">напон на допир и чекор</h3>
@@ -323,7 +318,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px"/>
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">громобранска инсталација и заземјување</h3>
@@ -334,7 +329,7 @@ can help you. Give us information about your symptoms and we will give you all t
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px"/>
                         </div>
                         <div class="media-body">
                             <h3 class="media-heading">нисконапонски електрични инсталации</h3>
