@@ -27,4 +27,9 @@ public class Doctor
         hospital = Hospital;
         addmitingTimes = AddmitingTimes;
     }
+
+    public override string ToString()
+    {
+        return base.ToString();
+    }
 }
