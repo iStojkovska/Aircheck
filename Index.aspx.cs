@@ -95,7 +95,6 @@ public partial class Index : System.Web.UI.Page
     }
 
 
-
     protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
     {
         simptom.Visible = true;
