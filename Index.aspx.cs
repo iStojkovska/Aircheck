@@ -27,6 +27,9 @@ public partial class Index : System.Web.UI.Page
         fillDoctors("Nemanja Ivanovic", "nivanovic@gmail.com", "5645449848", "Belgrade", "Krunska 86", "Klinicki cenatar Srbije", "Tue. 10-13h, Thu. 09-11h");
         fillDoctors("Niko Konstantinos", "niko_konst@gmail.com", "64654654", "Thessaloniki", "Sokratus 2", "AHEPA Hospital", "Wen. 10-11h, Fri. 12-15h");
         fillDoctors("Hrvoje Popovic", "h_popovic@gmail.com", "45456466", "Zagreb", "Paromliska cest 336", "Dom zdravlja Zagreb", "Mon. 17-19h, Thu. 18-20h");
+        Doctor doctor = null;
+        doctor = new Doctor("Lily Stone", "lstone@gmail.com", "135458984", "New York", "137 Hudson St.", "Health and Hospitals Corporation", "Mon. 12-14h, Wen. 12-14h");
+
     }
 
 
