@@ -44,9 +44,9 @@
 		            <li class="active"><a href="#home" class="scroll-link">HOME</a></li>
 					<li><a href="#aboutUs" class="scroll-link">ABOUT</a></li>
 					<li><a href="#services" class="scroll-link">MAPS</a></li>
-					<li><a href="#portfolio" class="scroll-link">SEARCH</a></li>
+					<li><a href="#portfolio" class="scroll-link">SYMPTOMS CHECKER</a></li>
 					<li><a href="#team" class="scroll-link">DEVELOP</a></li>
-					<li><a href="#contactUs" class="scroll-link"></a></li> 
+					<li><a href="#contactUs" class="scroll-link">Doctors</a></li> 
 	            </ul>
 	        </div>
 	        <!--/.navbar-collapse-->
