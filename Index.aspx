@@ -22,13 +22,33 @@
         
     display: none;
     }
+
+    .doclbx{
+        width: 50%;
+    }
     .auto-style3 {
         height: 172px;
     }
-    .auto-style5 {
-        width: 100%;
-        height: 269px;
+    .auto-style4 {
+        width: 387px;
     }
+    .auto-style5 {
+        width: 117%;
+        height: 328px;
+    }
+    .auto-style6 {
+        width: 259px;
+    }
+    .auto-style7 {
+        width: 50%;
+        margin-left: 0;
+    }
+    .auto-style8 {
+        width: 153px;
+    }
+
+
+   
 </style>
 </head>
 <body>
@@ -130,48 +150,7 @@ can help you. Give us information about your symptoms and we will give you all t
 		    <div class="heading text-center">
 								<!-- Heading -->
 								<h2 class="auto-style3">Please input your sympptoms:<br />
-                                    <table align="center" class="auto-style5">
-                                    <tr>
-                                        <td class="auto-style2">
-                                            <asp:CheckBox ID="CheckBox1" runat="server" Font-Size="Medium" />
-                                        </td>
-                                        <td>
-                                            <asp:CheckBox ID="CheckBox6" runat="server" Font-Size="Medium" />
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="auto-style2">
-                                            <asp:CheckBox ID="CheckBox2" runat="server" Font-Size="Medium" />
-                                        </td>
-                                        <td>
-                                            <asp:CheckBox ID="CheckBox7" runat="server" Font-Size="Medium" />
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="auto-style2">
-                                            <asp:CheckBox ID="CheckBox3" runat="server" Font-Size="Medium" />
-                                        </td>
-                                        <td>
-                                            <asp:CheckBox ID="CheckBox8" runat="server" Font-Size="Medium" />
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="auto-style2">
-                                            <asp:CheckBox ID="CheckBox4" runat="server" Font-Size="Medium" />
-                                        </td>
-                                        <td>
-                                            <asp:CheckBox ID="CheckBox9" runat="server" Font-Size="Medium" />
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="auto-style2">
-                                            <asp:CheckBox ID="CheckBox5" runat="server" Font-Size="Medium" />
-                                        </td>
-                                        <td class="auto-style2">
-                                            <asp:CheckBox ID="CheckBox10" runat="server" Font-Size="Medium" />
-                                        </td>
-                                    </tr>
-                                </table>
+                                    
 
 
 
@@ -196,155 +175,75 @@ can help you. Give us information about your symptoms and we will give you all t
             <div class="row">
             </div>
 
-            <div class="row">
-        <!-- Heading --> 	
-                                <h2>УСЛУГИ</h2> 							
-								<p>Вршиме технички преглед и периодични испитувања на следнава техничка опрема:</p>
-
-                        <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">енергетски трансформатори</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">мерни (струјни и напонски) трансформатори</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">вртливи машини (мотори и генератори)</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-            </div><!--/.row-->
-            <div class="gap"></div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px"/>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">електрична заштита</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">прекинувачи и раставувачи</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">акумулаторска батерија</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-            </div><!--/.row-->
-			<div class="gap"></div>
-			<div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">енергетски кабли</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">собирници и одводници</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">кондензатори</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-            </div><!--/.row-->
-            <div class="gap"></div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">напон на допир и чекор</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">громобранска инсталација и заземјување</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">нисконапонски електрични инсталации</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-            </div><!--/.row-->
-			
-			
+            <table align="center" class="auto-style5">
+                <tr>
+                    <td class="auto-style4" rowspan="7">
+                        <asp:ListBox ID="ListBox1" runat="server" Height="290px" Width="94%"></asp:ListBox>
+                    </td>
+                    <td class="auto-style8">
+                        <asp:Label ID="Label1" runat="server" Text="Name:" ></asp:Label>
+                    </td>
+                    <td class="auto-style6">
+                        <asp:TextBox ID="TextBox1" runat="server" CssClass="doclbx"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style8">
+                        <asp:Label ID="Label2" runat="server" Text="Email:"></asp:Label>
+                    </td>
+                    <td class="auto-style6">
+                        <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style7"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style8">
+                        <asp:Label ID="Label3" runat="server" Text="Phone:"></asp:Label>
+                    </td>
+                    <td class="auto-style6">
+                        <asp:TextBox ID="TextBox3" runat="server" CssClass="doclbx"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style8">
+                        <asp:Label ID="Label4" runat="server" Text="City:"></asp:Label>
+                    </td>
+                    <td class="auto-style6">
+                        <asp:TextBox ID="TextBox4" runat="server" CssClass="doclbx"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style8">
+                        <asp:Label ID="Label5" runat="server" Text="Address:"></asp:Label>
+                    </td>
+                    <td class="auto-style6">
+                        <asp:TextBox ID="TextBox5" runat="server" CssClass="doclbx"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style8">
+                        <asp:Label ID="Label6" runat="server" Text="Hospital:"></asp:Label>
+                    </td>
+                    <td class="auto-style6">
+                        <asp:TextBox ID="TextBox6" runat="server" CssClass="doclbx"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style8">
+                        <asp:Label ID="Label7" runat="server" Text="Admitting:"></asp:Label>
+                    </td>
+                    <td class="auto-style6">
+                        <asp:TextBox ID="TextBox7" runat="server" CssClass="doclbx"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">
+                        <asp:Button ID="Button1" runat="server" Text="Add a new Doctor" />
+                    </td>
+                    <td class="auto-style6" colspan="2">
+                        <asp:Button ID="Button2" runat="server" Text="Save doctor" />
+                    </td>
+                </tr>
+            </table>
 			
 			
         </div><!--/.container-->
