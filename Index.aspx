@@ -17,7 +17,12 @@
 <link href="font/css/font-awesome.min.css" rel="stylesheet"/>
 
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=cyrillic-ext,latin' rel='stylesheet' type='text/css'/>
-
+<style>
+    i{
+        
+    display: none;
+    }
+</style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -73,15 +78,14 @@
 								<!-- Heading -->
 								<h2 class="text-center">About</h2>								 
 								<p class="tekst" style="color: #858585">
-								Having medical issues?
+								<span class="centerspan">Having medical issues?</span><br />
 Here you can discover how environment can affect you and your health. 
 
 Due to enviromental changes people suffer from various diseases and allergies. There are many countries in the world where health care system is not developed. 
-As a result, there are a lot of patients, who don't know how to handle this sort of issues. That has inspired us to make a platform, which can be useful and fast 
+<br />As a result, there are a lot of patients, who don't know how to handle this sort of issues. That has inspired us to make a platform, which can be useful and fast 
 solution. According to the enviromental changes we created a map, which shows you the possible symptoms of allergies.Even more you can find a doctor near you that
 can help you.Give us information about your symptoms and we will give you all the information you need.
-
-								</p>														
+</p>														
 							</div>
 							
 								
@@ -89,164 +93,22 @@ can help you.Give us information about your symptoms and we will give you all th
  
 
 <section id="services" class="page-section darkBg">
-	<div class="container">
-            <div class="row">
-                <div class="col-md-12">
+    <div class="container">
+    
+		<div class="row">
                 <div class="heading text-center">
-								<!-- Heading --> 	
-                                <h2>УСЛУГИ</h2> 							
-								<p>Вршиме технички преглед и периодични испитувања на следнава техничка опрема:</p>
-							</div>                                            
-                </div>
+								<!-- Heading -->
+								<h2 style="margin-top: 30px; padding-top: 10px; margin-bottom: -18px;">Maps</h2> 
+								<!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>-->
+							</div>                            
             </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+
+					<div class="row mrgn30">
+                     <!--<div class="col-sm-5"> -->
+                                <iframe src="https://worldview.earthdata.nasa.gov/" style="width: 100%; height: 600px;"></iframe>
                         </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">енергетски трансформатори</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">мерни (струјни и напонски) трансформатори</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">вртливи машини (мотори и генератори)</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-            </div><!--/.row-->
-            <div class="gap"></div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">електрична заштита</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">прекинувачи и раставувачи</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">акумулаторска батерија</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-            </div><!--/.row-->
-			<div class="gap"></div>
-			<div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">енергетски кабли</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">собирници и одводници</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">кондензатори</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-            </div><!--/.row-->
-            <div class="gap"></div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">напон на допир и чекор</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">громобранска инсталација и заземјување</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">нисконапонски електрични инсталации</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-            </div><!--/.row-->
-			
-			
-			
-			
-        </div><!--/.container-->
+        </div>
+	
 </section>
  
 
@@ -396,124 +258,173 @@ can help you.Give us information about your symptoms and we will give you all th
 							<a href="documents/sertifikat_akreditacija.pdf"><p>Сертификат за акредитација број ИТ-069 издаден од Институт за акредитација на РМ</p></a>
 							
 							<a href="documents/resenie_ministerstvo.pdf"><p>Решение за исполнетост на условите за вршење на технички прегледи и периодични испитувања на техничка опрема издадено од Министерство за економија на Република Македонија.</p></a>
-							<!-- 
-							<div id="meet-the-team" class="row">
-            <div class="col-md-3 col-xs-6">
-                <div class="center text-center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/photo-1.jpg" alt=""></p>
-                    <h5>Jonnti Renlly<small class="designation muted">Senior Vice President</small></h5>
-                    <p>lorem Ipsum available, but the majority have suffered alteration.</p>
-                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-xs-6">
-                <div class="center text-center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/photo-1.jpg" alt=""></p>
-                    <h5>Jonnti Renlly<small class="designation muted">Senior Vice President</small></h5>
-                    <p>lorem Ipsum available, but the majority have suffered alteration.</p>
-                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
-                </div>
-            </div>        
-            <div class="col-md-3 col-xs-6">
-                <div class="center text-center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/photo-1.jpg" alt=""></p>
-                    <h5>Jonnti Renlly<small class="designation muted">Senior Vice President</small></h5>
-                    <p>lorem Ipsum available, but the majority have suffered alteration.</p>
-                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
-                </div>
-            </div>        
-            <div class="col-md-3 col-xs-6">
-                <div class="center text-center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/photo-1.jpg" alt=""></p>
-                    <h5>Jonnti Renlly<small class="designation muted">Senior Vice President</small></h5>
-                    <p>lorem Ipsum available, but the majority have suffered alteration.</p>
-                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
-                </div>
-            </div>
-        </div>-->
-        <!--<div class="row">
-                <div class="col-lg-12">
-                    <div class="heading text-center">
-                        <h2>What our clients say</h2>
-                        <p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
-                    </div>
-                    <div class="gap"></div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit majority have suffered alteration</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                            </blockquote>
-                        </div>
-                        <div class="col-md-6">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit majority have suffered alteration</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
-	<!--/.container-->
+							
         </div>
 </section> 
 <footer class="page-section darkBg" id="contactUs">
 	<div class="container">
-    
-		<div class="row">
+            <div class="row">
+                <div class="col-md-12">
                 <div class="heading text-center">
-								<!-- Heading -->
-								<h2>КОНТАКТ</h2> 
-								<!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>-->
-							</div>                            
+
+
+
+
+
+								<!-- Heading --> 	
+                                <h2>УСЛУГИ</h2> 							
+								<p>Вршиме технички преглед и периодични испитувања на следнава техничка опрема:</p>
+							</div>                                            
+                </div>
             </div>
-
-					<div class="row mrgn30">
-                     <div class="col-sm-5"> 
-                                <iframe src="https://maps.google.com/?ie=UTF8&amp;t=m&amp;daddr=41.996548,21.398706&amp;spn=0.018486,0.027466&amp;z=15&amp;output=embed" width="100%" height="400" frameborder="0" style="border:0"></iframe> <!-- https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d1287.623769199238!2d21.3983377!3d41.995928100000015!3m2!1i1024!2i768!4f13.1!2m1!1z0YPQuy4g0JzQuNC70LUg0J_QvtC_INCI0L7RgNC00LDQvdC-0LIg0LHRgC43MiA!5e1!3m2!1sen!2srs!4v1428448193573 -->
-                                </div>
-                        				<div class="col-sm-3">
-									<h4>Адреса:</h4>
-									<address>
-										Е-КОНТРОЛ ИКК ДООЕЛ СКОПЈЕ<br>
-										ул. Миле Поп Јорданов бр.72<br>
-										1000 Скопје, Р.Македонија<br>
-									</address>
-									<h4>Информации за контакт:</h4> 
-                                     <ul class="kontakt">
-              <!--<li><i class="fa fa-phone"></i>1-123-345-6789</li>-->
-              <!--<li><a href="#"><i class="fa fa-envelope-o"></i> e.controlltd@gmail.com </a></li>-->
-			  <li style="margin-bottom: 5px; margin-top: 5 px;"><img src="images/Mail.png" style="width: 30px; height: 30px"> e.controlltd@gmail.com </li>
-			  <li style="margin-bottom: 5px; margin-top: 5 px;"><img src="images/Mobile.png" style="width: 30px; height: 30px"> 00389 78 316 556</li>
-			  <li style="margin-bottom: 5px; margin-top: 5 px;"><img src="images/Phone.png" style="width: 30px; height: 30px"> 00389 2 30 90 290</li>
-			  <li style="margin-bottom: 5px; margin-top: 5 px;"><img src="images/Documents.png" style="width: 30px; height: 30px"> 00389 2 30 90 299</li>
-              <!--<li><i class="fa fa-flag"></i>123 Smith Drive, Baltimore, MD 21212</li>-->
-            </ul>
-								</div>
-                               
-								<form method="post" action="" id="contactfrm" role="form">
-
-									<div class="col-sm-4"> 
-										<div class="form-group">
-											<label for="name">Име</label>
-											<input type="text" class="form-control" name="name" id="name" placeholder="" title="Please enter your name (at least 2 characters)"> <!--Enter name-->
-										</div>
-										<div class="form-group">
-											<label for="email">E-мејл</label>
-											<input type="email" class="form-control" name="email" id="email" placeholder="" title="Please enter a valid email address"> <!--Enter email-->
-										</div> 
-								
-										<div class="form-group">
-											<label for="comments">Порака</label>
-											<textarea name="comment" class="form-control" id="comments" cols="3" rows="3" placeholder="" title="Please enter your message (at least 10 characters)"></textarea> <!--Enter your message…-->
-										</div>	
-										<button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit"> Испрати</button>		
-										<div class="result"></div>										
-									</div>                        									
-								</form>
-							</div>
-        </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">енергетски трансформатори</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">мерни (струјни и напонски) трансформатори</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">вртливи машини (мотори и генератори)</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+            </div><!--/.row-->
+            <div class="gap"></div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px"/>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">електрична заштита</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">прекинувачи и раставувачи</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">акумулаторска батерија</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+            </div><!--/.row-->
+			<div class="gap"></div>
+			<div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">енергетски кабли</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">собирници и одводници</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">кондензатори</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+            </div><!--/.row-->
+            <div class="gap"></div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">напон на допир и чекор</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">громобранска инсталација и заземјување</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">нисконапонски електрични инсталации</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+            </div><!--/.row-->
+			
+			
+			
+			
+        </div><!--/.container-->
 	<!--/.container-->	
 </footer>
 <!--/.page-section-->
@@ -525,15 +436,12 @@ can help you.Give us information about your symptoms and we will give you all th
               <li><a href="#" class="fbIcon" target="_blank"><i class="fa fa-facebook-square fa-lg""></i></a></li>
               <li><a href="#" class="twitterIcon" target="_blank"><i class="fa fa-twitter-square fa-lg""></i></a></li>
               <li><a href="#" class="googleIcon" target="_blank"><i class="fa fa-google-plus-square fa-lg""></i></a></li>
-              <li><a href="#" class="pinterest" target="_blank"><i class="fa fa-pinterest-square fa-lg""></i></a></li>
-            </ul>   <div class="pull-right webThemez">Template by <a href="http://webThemez.com"> WebThemez.com</a> </div>
+              </ul>
         </div>
-      </div>  <!-- / .row -->
+      </div>
     </div>
 </section>
-    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
-
-<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
+    
 <script src="js/modernizr-latest.js"></script>
 <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>    
 <script src="js/bootstrap.min.js" type="text/javascript"></script>	 
