@@ -22,14 +22,13 @@
         
     display: none;
     }
-    .auto-style3 {
-        height: 172px;
-    }
-    .auto-style5 {
+    .auto-style1 {
         width: 100%;
-        height: 269px;
     }
-</style>
+    .auto-style2 {
+        width: 244px;
+    }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -124,65 +123,32 @@ can help you. Give us information about your symptoms and we will give you all t
 			<div class="container">
 				
 		    <div class="heading text-center">
-								<!-- Heading -->
-								<h2 class="auto-style3">Please input your sympptoms:<br />
-                                    <table align="center" class="auto-style5">
-                                    <tr>
-                                        <td class="auto-style2">
-                                            <asp:CheckBox ID="CheckBox1" runat="server" Font-Size="Medium" />
-                                        </td>
-                                        <td>
-                                            <asp:CheckBox ID="CheckBox6" runat="server" Font-Size="Medium" />
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="auto-style2">
-                                            <asp:CheckBox ID="CheckBox2" runat="server" Font-Size="Medium" />
-                                        </td>
-                                        <td>
-                                            <asp:CheckBox ID="CheckBox7" runat="server" Font-Size="Medium" />
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="auto-style2">
-                                            <asp:CheckBox ID="CheckBox3" runat="server" Font-Size="Medium" />
-                                        </td>
-                                        <td>
-                                            <asp:CheckBox ID="CheckBox8" runat="server" Font-Size="Medium" />
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="auto-style2">
-                                            <asp:CheckBox ID="CheckBox4" runat="server" Font-Size="Medium" />
-                                        </td>
-                                        <td>
-                                            <asp:CheckBox ID="CheckBox9" runat="server" Font-Size="Medium" />
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="auto-style2">
-                                            <asp:CheckBox ID="CheckBox5" runat="server" Font-Size="Medium" />
-                                        </td>
-                                        <td class="auto-style2">
-                                            <asp:CheckBox ID="CheckBox10" runat="server" Font-Size="Medium" />
-                                        </td>
-                                    </tr>
-                                </table>
+																
+								<div style="font-size: 18px; font-weight: bold">
+                                    <br />
+                                    <br />
+                                    Choose your symptomps<br />
+                                    <table class="auto-style1">
+                                        <tr>
+                                            <td class="auto-style2">
+                                                <asp:RadioButtonList ID="RadioButtonList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged">
+                                                    <asp:ListItem>Air Quality</asp:ListItem>
+                                                    <asp:ListItem>Item2</asp:ListItem>
+                                                </asp:RadioButtonList>
+                                            </td>
+                                            <td style="text-align: left">
+                                                <asp:Label ID="simptom" runat="server" Text="Your symptom is " Visible="False"></asp:Label>
+                                                <asp:Label ID="vrednost" runat="server" Visible="False"></asp:Label>
+                                                <br />
+                                                <asp:Label ID="opis" runat="server" Visible="False"></asp:Label>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
 
-
-
-
-                                </h2>
-                                <p class="auto-style3">&nbsp;</p>								
+																
 								</div>
 					
-                          <div class="row">
-
-
-
-
-                              </div>
-			    
 			  </div>
 </section> 
 

@@ -66,4 +66,15 @@ public partial class Index : System.Web.UI.Page
     }
 
 
+
+    protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        simptom.Visible = true;
+        vrednost.Visible = true;
+        opis.Visible = true;
+        vrednost.Text = RadioButtonList1.SelectedItem.Text;
+        opis.Text = RadioButtonList1.SelectedItem.Value;
+
+     
+    }
 }
