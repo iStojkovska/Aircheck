@@ -45,7 +45,10 @@ span.text-content {
   width: 250px;
   opacity: 0;
 }
- 
+.titles{
+    margin:20px 0px;
+    padding:0px !important;
+} 
 ul.img-list li:hover span.text-content {
   opacity: 1;
 }
@@ -196,7 +199,7 @@ a {
 }
 
 .mrgn30 {
-    margin: 30px 0;
+    /*margin: 30px 0;*/     
 }
 
 .copyright {
@@ -459,8 +462,6 @@ a {
     }
 
 .heading {
-    padding-bottom: 30px;
-    margin-top: 70px;
 }
 
     .heading p {

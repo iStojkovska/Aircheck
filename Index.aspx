@@ -22,6 +22,13 @@
         
     display: none;
     }
+    .auto-style3 {
+        height: 172px;
+    }
+    .auto-style5 {
+        width: 100%;
+        height: 269px;
+    }
 </style>
 </head>
 <body>
@@ -78,8 +85,7 @@
 	<div class="container">
 							    <div class="heading">
 								<!-- Heading -->
-								<h2 class="text-center" style="margin-bottom: 40px;">About</h2>	
-                                   <br />
+								<h2 class="text-center titles">About</h2>	
                                      <hr />							 
 								<p class="tekst" style="color: #858585">
 								<!--<span class="centerspan"></span>-->
@@ -103,9 +109,8 @@ can help you. Give us information about your symptoms and we will give you all t
     <div class="container">
     
 		<div class="row">
-                <div class="heading text-center">
-								<!-- Heading -->
-								<h2 style="margin-top: 30px; padding-top: 10px; margin-bottom: -18px;">Maps</h2> 
+                <div class="heading text-center col-md-12 col-xs-12">
+								<h2 class="titles">Maps</h2> 
 								<!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>-->
 							</div>                            
             </div>
@@ -119,173 +124,84 @@ can help you. Give us information about your symptoms and we will give you all t
 </section>
  
 
-<section id="portfolio" class="page-section section appear clearfix">	
+<section id="portfolio" class="page-section section appear clearfix" style="height: 479px">	
 			<div class="container">
 				
 		    <div class="heading text-center">
 								<!-- Heading -->
-								<h2>КЛИЕНТИ</h2>								
+								<h2 class="auto-style3">Please input your sympptoms:<br />
+                                    <table align="center" class="auto-style5">
+                                    <tr>
+                                        <td class="auto-style2">
+                                            <asp:CheckBox ID="CheckBox1" runat="server" Font-Size="Medium" />
+                                        </td>
+                                        <td>
+                                            <asp:CheckBox ID="CheckBox6" runat="server" Font-Size="Medium" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="auto-style2">
+                                            <asp:CheckBox ID="CheckBox2" runat="server" Font-Size="Medium" />
+                                        </td>
+                                        <td>
+                                            <asp:CheckBox ID="CheckBox7" runat="server" Font-Size="Medium" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="auto-style2">
+                                            <asp:CheckBox ID="CheckBox3" runat="server" Font-Size="Medium" />
+                                        </td>
+                                        <td>
+                                            <asp:CheckBox ID="CheckBox8" runat="server" Font-Size="Medium" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="auto-style2">
+                                            <asp:CheckBox ID="CheckBox4" runat="server" Font-Size="Medium" />
+                                        </td>
+                                        <td>
+                                            <asp:CheckBox ID="CheckBox9" runat="server" Font-Size="Medium" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="auto-style2">
+                                            <asp:CheckBox ID="CheckBox5" runat="server" Font-Size="Medium" />
+                                        </td>
+                                        <td class="auto-style2">
+                                            <asp:CheckBox ID="CheckBox10" runat="server" Font-Size="Medium" />
+                                        </td>
+                                    </tr>
+                                </table>
+
+
+
+
+                                </h2>
+                                <p class="auto-style3">&nbsp;</p>								
 								<!--<p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>-->
 							</div>
 					
-                        <!--<div class="row">
-                          <nav id="filter" class="col-md-12 text-center">
-                            <ul>
-                              <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
-                              <li><a href="#"  class="btn-theme btn-small" data-filter=".webdesign" >Web Design</a></li>
-                              <li><a href="#"  class="btn-theme btn-small" data-filter=".photography">Photography</a></li>
-                              <li ><a href="#" class="btn-theme btn-small" data-filter=".print">Print</a></li>
-                            </ul>
-                          </nav
-                          <div class="col-md-12"> -->
                           <div class="row">
-			    <ul class="img-list">
-			      <li>
-				  <a href="images/logoa/badel.jpg">
-				  <img src="images/logoa/badel.jpg" width="250" height="150" />
-				  <span class="text-content"><span>BADEL</span></span>
-				  </a>
-			      </li>
-			      
-			      <li>
-				  <a href="images/logoa/boris trajkovski.jpg">
-				  <img src="images/logoa/boris trajkovski.jpg" width="250" height="150" />
-				  <span class="text-content"><span>СПОРТСКИ ЦЕНТАР БОРИС ТРАЈКОВСКИ</span></span>
-				  </a>
-			      </li>
-			      
-			      <li>
-				  <a href="images/logoa/inter fantazi.png">
-				  <img src="images/logoa/inter fantazi.png" width="250" height="150" />
-				  <span class="text-content"><span>InterFantasy</span></span>
-				  </a>
-			      </li>
-			      
-			      <li>
-				  <a href="images/logoa/knauf.png">
-				  <img src="images/logoa/knauf.png" width="250" height="150" />
-				  <span class="text-content"><span>KNAUF</span></span>
-				  </a>
-			      </li>
-			      
-			      <li>
-				  <a href="images/logoa/logo1.png">
-				  <img src="images/logoa/logo1.png" width="250" height="150" />
-				  <span class="text-content"><span>СПОРТСКИ ЦЕНТАР ЈАНЕ САНДАНСКИ</span></span>
-				  </a>
-			      </li>
-			      
-			      <li>
-				  <a href="images/logoa/mak_auto_star.jpg">
-				  <img src="images/logoa/mak_auto_star.jpg" width="250" height="150" />
-				  <span class="text-content"><span>МакАутоСтар</span></span>
-				  </a>
-			      </li>
-			      
-			      <li>
-				  <a href="images/logoa/makprimat3.png">
-				  <img src="images/logoa/makprimat3.png" width="250" height="150" />
-				  <span class="text-content"><span>MAKPRIMAT</span></span>
-				  </a>
-			      </li>
-			      
-			      <li>
-				  <a href="images/logoa/min-finansii-centr.png">
-				  <img src="images/logoa/min-finansii-centr.png" width="250" height="150" />
-				  <span class="text-content"><span>МИНИСТЕРСТВО ЗА ФИНАНСИИ</span></span>
-				  </a>
-			      </li>
-			      
-			      <li>
-				  <a href="images/logoa/nbrm_thumb.jpg">
-				  <img src="images/logoa/nbrm_thumb.jpg" width="250" height="150" />
-				  <span class="text-content"><span>НБРМ</span></span>
-				  </a>
-			      </li>
-	  
-			      <li>
-				  <a href="images/logoa/neptun.png">
-				  <img src="images/logoa/neptun.png" width="250" height="150" />
-				  <span class="text-content"><span>NEPTUN</span></span>
-				  </a>
-			      </li>
-			      
-			      <li>
-				  <a href="images/logoa/Okta_logo.jpg">
-				  <img src="images/logoa/Okta_logo.jpg" width="250" height="150" />
-				  <span class="text-content"><span>OKTA</span></span>
-				  </a>
-			      </li>
-			      
-			      <li>
-				  <a href="images/logoa/titan-cementara.jpg">
-				  <img src="images/logoa/titan-cementara.jpg" width="250" height="150" />
-				  <span class="text-content"><span>TITAN</span></span>
-				  </a>
-			      </li>
-				  
-				  <li>
-				  <a href="images/logoa/emk.png">
-				  <img src="images/logoa/emk.png" width="250" height="150" />
-				  <span class="text-content"><span>ЕМК д.о.о.е.л. Мали хидроелектрани</span></span>
-				  </a>
-			      </li>
-	  
-			      <li>
-				  <a href="images/logoa/hotel flamingo.png">
-				  <img src="images/logoa/hotel flamingo1.png" width="250" height="150" />
-				  <span class="text-content"><span>Casino Flamingo Hotel</span></span>
-				  </a>
-			      </li>
-			      
-			      <li>
-				  <a href="images/logoa/Vodostopanstvo-Tikves.jpg">
-				  <img src="images/logoa/Vodostopanstvo-Tikves.jpg" width="250" height="150" />
-				  <span class="text-content"><span>Водостопанство Тиквеш</span></span>
-				  </a>
-			      </li>
-			      
-			      <li>
-				  <a href="images/logoa/banjani.png">
-				  <img src="images/logoa/banjani1.png" width="250" height="150" />
-				  <span class="text-content"><span>Бањани</span></span>
-				  </a>
-			      </li>
-			    </ul>
+
+
+
+
+                              </div>
+			    
 			  </div>
 </section> 
 
-<section id="team" class="page-section team-member">
-	<div class="container">
-							<div class="heading text-center">
-								<!-- Heading -->
-								<h2>СЕРТИФИКАТИ</h2> 
-								<!--<p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>-->
-							</div>
-							<a href="documents/sertifikat_akreditacija.pdf"><p>Сертификат за акредитација број ИТ-069 издаден од Институт за акредитација на РМ</p></a>
-							
-							<a href="documents/resenie_ministerstvo.pdf"><p>Решение за исполнетост на условите за вршење на технички прегледи и периодични испитувања на техничка опрема издадено од Министерство за економија на Република Македонија.</p></a>
-							
-        </div>
-</section> 
 <footer class="page-section darkBg" id="contactUs">
 	<div class="container">
             <div class="row">
-                <div class="col-md-12">
-                <div class="heading text-center">
+            </div>
 
-
-
-
-
-								<!-- Heading --> 	
+            <div class="row">
+        <!-- Heading --> 	
                                 <h2>УСЛУГИ</h2> 							
 								<p>Вршиме технички преглед и периодични испитувања на следнава техничка опрема:</p>
-							</div>                                            
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
+
+                        <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
                             <img src="images/Uslugi/kopce.png" style="width: 10px; height: 10px">
