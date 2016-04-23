@@ -58,10 +58,12 @@
     .btn-lg{
         margin-top: 2%;
         margin-bottom: 2%;
-         color: #fff;
-         background-color:  #1371AF;
+         color: #1371AF;
+         background-color: #DEDFE0;
     }
 
+
+   
     .auto-style9 {
         margin-left: 57;
     }
