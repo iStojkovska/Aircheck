@@ -460,6 +460,7 @@ a {
 
 .heading {
     padding-bottom: 30px;
+    margin-top: 70px;
 }
 
     .heading p {
@@ -668,7 +669,11 @@ nav#filter {
     }
 
 hr {
-    border-color: #ddd;
+    border-width: 2px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgba(19, 113, 175, 0.3);
 }
 
 body {
@@ -797,6 +802,9 @@ p.tekst
 {
   text-align: justify;
   padding: 15px;
+  margin-left: 40px;
+    margin-right: 40px;
+  line-height: 33px;
 }
 
 

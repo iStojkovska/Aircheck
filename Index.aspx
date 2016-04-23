@@ -46,7 +46,7 @@
 					<li><a href="#services" class="scroll-link">MAPS</a></li>
 					<li><a href="#portfolio" class="scroll-link">SEARCH</a></li>
 					<li><a href="#team" class="scroll-link">DEVELOP</a></li>
-					<li><a href="#contactUs" class="scroll-link">CONTACT</a></li> 
+					<li><a href="#contactUs" class="scroll-link"></a></li> 
 	            </ul>
 	        </div>
 	        <!--/.navbar-collapse-->
@@ -64,6 +64,8 @@
 			<h1>
 				AIRCHECK
 			</h1>	
+
+           <!-- <h5 style="font-style:italic; color:grey">  Belive in us, we can gift you a better healthcare system for leading a healtier life.</h5>-->
 		</div>
            <div class="container banner-content">
 		    
@@ -76,17 +78,22 @@
 	<div class="container">
 							    <div class="heading">
 								<!-- Heading -->
-								<h2 class="text-center">About</h2>								 
+								<h2 class="text-center" style="margin-bottom: 40px;">About</h2>	
+                                   <br />
+                                     <hr />							 
 								<p class="tekst" style="color: #858585">
-								<span class="centerspan">Having medical issues?</span><br />
+								<!--<span class="centerspan"></span>-->
+                                   Having medical issues? <br />
 Here you can discover how environment can affect you and your health. 
 
 Due to enviromental changes people suffer from various diseases and allergies. There are many countries in the world where health care system is not developed. 
 <br />As a result, there are a lot of patients, who don't know how to handle this sort of issues. That has inspired us to make a platform, which can be useful and fast 
-solution. According to the enviromental changes we created a map, which shows you the possible symptoms of allergies.Even more you can find a doctor near you that
-can help you.Give us information about your symptoms and we will give you all the information you need.
-</p>														
+solution. According to the enviromental changes we created a map, which shows you the possible symptoms of allergies. Even more you can find a doctor near you that
+can help you. Give us information about your symptoms and we will give you all the information you need.
+</p>							
+                                   <br /> <hr /> <br />							
 							</div>
+        </div>
 							
 								
 </section>
