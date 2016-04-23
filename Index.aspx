@@ -24,7 +24,8 @@
     }
 
     .doclbx{
-        width: 50%;
+        width: 70%;
+        border-radius: 5%;
     }
     .auto-style3 {
         height: 172px;
@@ -47,10 +48,6 @@
     .auto-style6 {
         width: 259px;
     }
-    .auto-style7 {
-        width: 50%;
-        margin-left: 0;
-    }
     .auto-style8 {
         width: 64px;
     }
@@ -65,7 +62,14 @@
 
    
     .auto-style9 {
-        margin-left: 57;
+    margin-left: 57;
+    list-style: none;
+    background-color: rgb(226, 223, 222);
+    padding-left: 5%;
+    }
+
+    input{
+            background-color: rgb(226, 223, 222);
     }
 
 
@@ -195,7 +199,8 @@ can help you. Give us information about your symptoms and we will give you all t
             <table align="center" class="auto-style5">
                 <tr>
                     <td class="auto-style4" rowspan="7">
-                        <asp:ListBox ID="ListBox1" runat="server" Height="290px" Width="78%" CssClass="auto-style9" Font-Size="Medium"></asp:ListBox>
+                        <ol id="ListBox1" style = "height:200px; width: 65%;  font-size: large" class="auto-style9" ></ol>
+                    <ol class="selectable"></ol>
                     </td>
                     <td class="auto-style8">
                         <asp:Label ID="Label1" runat="server" Text="Name:" Font-Size="X-Large" ></asp:Label>
@@ -209,7 +214,7 @@ can help you. Give us information about your symptoms and we will give you all t
                         <asp:Label ID="Label2" runat="server" Text="Email:" Font-Size="X-Large"></asp:Label>
                     </td>
                     <td class="auto-style6">
-                        <asp:TextBox ID="TextBox2" runat="server" CssClass="auto-style7"></asp:TextBox>
+                        <asp:TextBox ID="TextBox2" runat="server" CssClass="doclbx"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
@@ -252,15 +257,7 @@ can help you. Give us information about your symptoms and we will give you all t
                         <asp:TextBox ID="TextBox7" runat="server" CssClass="doclbx"></asp:TextBox>
                     </td>
                 </tr>
-                <tr>
-                    <td class="auto-style4">
-                        <asp:Button ID="Button1" runat="server" Text="Add a new Doctor" class=btn-lg/>
-                    </td>
-                    <td class="auto-style6" colspan="2">
-                        <asp:Button ID="Button2" runat="server" Text="Save doctor" class="btn-lg"/>
-                    </td>
-                </tr>
-            </table>
+                </table>
             <!--/.container-->
 	<!--/.container-->	
 </footer>
@@ -278,6 +275,11 @@ can help you. Give us information about your symptoms and we will give you all t
       </div>
     </div>
 </section>
+
+        
+ <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+ <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+ <script src="js/clicks.js"></script>
     
 <script src="js/modernizr-latest.js"></script>
 <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>    
