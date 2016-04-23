@@ -13,8 +13,13 @@ public partial class Index : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
+<<<<<<< HEAD
         if(!IsPostBack)
             ShowDoctors();
+=======
+      ShowDoctors();
+
+>>>>>>> 53f6530a366e08cddfcb464bf7fb801ea5328d8b
     }
 
     protected void ShowDoctors()
@@ -93,7 +98,7 @@ public partial class Index : System.Web.UI.Page
         }
        
     }
-
+    /*
 
     protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
     {
@@ -105,4 +110,6 @@ public partial class Index : System.Web.UI.Page
 
      
     }
+
+    */
 }
