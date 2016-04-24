@@ -79,71 +79,67 @@ var data = [
 			}
         ];
 		
-		var a = [
-{
-  "location": {
-    "latitude": 41.993,
-    "longitude": 21.4280,
-    "name": "skopje"
-  },
-  "metrics": {
-    "CO": 110,
-    "Aerosol": 0.05,
-    "SulfurDioxide": 0
-  },
-  "date": "2016-04-23"
-},{
-  "location": {
-    "latitude": 41.993,
-    "longitude": 21.4280,
-    "name": "new york"
-  },
-  "metrics": {
-    "CO": 120,
-    "Aerosol": 0.35,
-    "SulfurDioxide": 1.10
-  },
-  "date": "2016-04-23"
-},{
-  "location": {
-    "latitude": 35.2820,
-    "longitude": 149.1287,
-    "name": "canberra"
-  },
-  "metrics": {
-    "CO": 60,
-    "Aerosol": 0.20,
-    "SulfurDioxide": 0
-  },
-  "date": "2016-04-23"
+		var a = [{
+	"location": {
+		"latitude": 41.993,
+		"longitude": 21.4280,
+		"name": "skopje"
+	},
+	"metrics": {
+		"CO": 110,
+		"Aerosol": 0.05,
+		"SulfurDioxide": 0
+	},
+	"date": "2016-04-23"
 }, {
-  "location": {
-    "latitude": 53.4808,
-    "longitude": 2.2426,
-    "name": "manchester city"
-  },
-  "metrics": {
-    "CO": 100,
-    "Aerosol": 0.15,
-    "SulfurDioxide": 0.15
-  },
-  "date": "2016-04-23"
+	"location": {
+		"latitude": 41.993,
+		"longitude": 21.4280,
+		"name": "new york"
+	},
+	"metrics": {
+		"CO": 120,
+		"Aerosol": 0.35,
+		"SulfurDioxide": 1.10
+	},
+	"date": "2016-04-23"
 }, {
-  "location": {
-    "latitude": 22.9068,
-    "longitude": 43.1729,
-    "name": "rio"
-  },
-  "metrics": {
-    "CO": 65,
-    "Aerosol": 0.15,
-    "SulfurDioxide": 0
-  },
-  "date": "2016-04-23"
-}
-
-
-];
+	"location": {
+		"latitude": 35.2820,
+		"longitude": 149.1287,
+		"name": "canberra"
+	},
+	"metrics": {
+		"CO": 60,
+		"Aerosol": 0.20,
+		"SulfurDioxide": 0
+	},
+	"date": "2016-04-23"
+}, {
+	"location": {
+		"latitude": 53.4808,
+		"longitude": 2.2426,
+		"name": "manchester city"
+	},
+	"metrics": {
+		"CO": 100,
+		"Aerosol": 0.15,
+		"SulfurDioxide": 0.15
+	},
+	"date": "2016-04-23"
+}, {
+	"location": {
+		"latitude": 22.9068,
+		"longitude": 43.1729,
+		"name": "rio"
+	},
+	"metrics": {
+		"CO": 65,
+		"Aerosol": 0.15,
+		"SulfurDioxide": 0
+	},
+	"date": "2016-04-23"
+}]
 
         var index = 0;
 
@@ -169,8 +165,8 @@ var data = [
 			
 			
 			$("#check").click(function(){
-				console.log("NO")
-                check();
+				console.log("NO");
+				check();
             });
 			
 			//$("#check").on("click",function(e){
@@ -191,14 +187,14 @@ var data = [
 			
 			
 			function check(){
-			var b = JSON.parse(a);
+			//var b = JSON.parse(a);
 			var location = $("#location").val().toLowerCase();
 			var symptom = $("#symptom").val().toLowerCase();
 			var dyagnose = "";
 			var data2 = "";
 			$(".results_list").append("<span>There is " + "high" + " risk of "+ "CO" + " that might be causing your symptoms. </span>");
 							
-	/*$.each(b.items, function(i, item){
+	$.each(a.items, function(i, item){
                         var city = item.location.name;
 						if(location!="" && location == city){
 							if(symptom == "headache" || symptom == "dizziness" || symptom == "weakness" || symptom == "upset stomach" || symptom == "vomiting" || symptom == "chest pain" || symptom == "confusion"){
@@ -229,6 +225,6 @@ var data = [
                         
                         
 						console.log("YES");
-						}); */
+						});
 			}
                 });

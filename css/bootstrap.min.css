@@ -748,7 +748,8 @@ pre code {
 }
 .row {
     margin-right: 0px;
-    margin-left: -15px
+    margin-left: 15px;
+    padding-top: 15%;
 }
 .row:before,
 .row:after {

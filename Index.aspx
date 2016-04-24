@@ -213,13 +213,13 @@ can help you. Give us information about your symptoms and we will give you all t
     color: white;
     border-color: rgba(19, 113, 175, 0.89);
 ">Check</button>
+                                    <br />
+                                    <div class="results_list"> </div>
 
  </h2>							  
 								</div>
 					
                           <div class="row">
-
-                                 <div class=".results_list"> </div>
 
 
                               </div>
