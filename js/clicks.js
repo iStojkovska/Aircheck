@@ -143,7 +143,7 @@ var data = [
 }
 
 
-]
+];
 
         var index = 0;
 
@@ -167,7 +167,9 @@ var data = [
                 showData(index);
             });
 			
+			
 			$("#check").click(function(){
+				console.log("NO")
                 check();
             });
 			
@@ -189,11 +191,14 @@ var data = [
 			
 			
 			function check(){
+			var b = JSON.parse(a);
 			var location = $("#location").val().toLowerCase();
-	var symptom = $("#symptom").val().toLowerCase();
-	var dyagnose = "";
-	var data2 = "";
-	$.each(a.items, function(i, item){
+			var symptom = $("#symptom").val().toLowerCase();
+			var dyagnose = "";
+			var data2 = "";
+			$(".results_list").append("<span>There is " + "high" + " risk of "+ "CO" + " that might be causing your symptoms. </span>");
+							
+	/*$.each(b.items, function(i, item){
                         var city = item.location.name;
 						if(location!="" && location == city){
 							if(symptom == "headache" || symptom == "dizziness" || symptom == "weakness" || symptom == "upset stomach" || symptom == "vomiting" || symptom == "chest pain" || symptom == "confusion"){
@@ -224,6 +229,6 @@ var data = [
                         
                         
 						console.log("YES");
-						});
+						}); */
 			}
                 });

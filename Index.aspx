@@ -208,7 +208,11 @@ can help you. Give us information about your symptoms and we will give you all t
     border-color: rgba(19, 113, 175, 0.89);
 "/> -->
 
-                                    <button type="button" id="check" >Check</button>
+                                    <button type="button" id="check" style="
+    background-color: rgba(19, 113, 175, 0.89);
+    color: white;
+    border-color: rgba(19, 113, 175, 0.89);
+">Check</button>
 
  </h2>							  
 								</div>
