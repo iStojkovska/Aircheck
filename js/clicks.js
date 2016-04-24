@@ -165,13 +165,8 @@ var data = [
 			
 			
 			$("#check").click(function(){
-				console.log("NO");
 				check();
             });
-			
-			//$("#check").on("click",function(e){
-			//	check();
-			//});
 
 
             function showData(index){
@@ -192,7 +187,7 @@ var data = [
 			var symptom = $("#symptom").val().toLowerCase();
 			var dyagnose = "";
 			var data2 = "";
-			$(".results_list").append("<span>There is " + "high" + " risk of "+ "CO" + " that might be causing your symptoms. </span>");
+			$(".results_list").append("<span>There is " + "high" + " risk of "+ "headache" + " in " + "Skopje" + " right now . <br/ > Possible reason: " + "high" + " levels of " + "sulfur dioxide</span>");
 							
 	$.each(a.items, function(i, item){
                         var city = item.location.name;
@@ -223,8 +218,6 @@ var data = [
 							
 						}
                         
-                        
-						console.log("YES");
 						});
 			}
                 });
