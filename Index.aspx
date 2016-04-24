@@ -202,18 +202,20 @@ can help you. Give us information about your symptoms and we will give you all t
                                   </tr>
                               </table>
 
-                              <input id="check" type="button" value="Check" style="
+                              <!--<input id="check" type="button" value="Check" style="
     background-color: rgba(19, 113, 175, 0.89);
     color: white;
     border-color: rgba(19, 113, 175, 0.89);
-"/>
+"/> -->
+
+                                    <button type="button" id="check" >Check</button>
 
  </h2>							  
 								</div>
 					
                           <div class="row">
 
-                                 <div ".results_list"> </div>
+                                 <div class=".results_list"> </div>
 
 
                               </div>

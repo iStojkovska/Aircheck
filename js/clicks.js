@@ -167,18 +167,13 @@ var data = [
                 showData(index);
             });
 			
+			$("#check").click(function(){
+                check();
+            });
 			
-			$().click();{
-				
-			}
-			
-			//$("#check").click(function(){
-             //   check();
-            //});
-			
-			$("#check").on("click",function(e){
-				check();
-			});
+			//$("#check").on("click",function(e){
+			//	check();
+			//});
 
 
             function showData(index){
@@ -198,7 +193,7 @@ var data = [
 	var symptom = $("#symptom").val().toLowerCase();
 	var dyagnose = "";
 	var data2 = "";
-	$.each(data.items, function(i, item){
+	$.each(a.items, function(i, item){
                         var city = item.location.name;
 						if(location!="" && location == city){
 							if(symptom == "headache" || symptom == "dizziness" || symptom == "weakness" || symptom == "upset stomach" || symptom == "vomiting" || symptom == "chest pain" || symptom == "confusion"){
@@ -223,10 +218,11 @@ var data = [
 								else if(data >=81 && data <=90 ) dyagnose = "high";
 								else if(data >=91 ) dyagnose = "alert";
 							}
-							return;
+							$(".results_list").append("There is " + dyagnose + " risk of "+ data2 + " that might be causing your symptoms. ");
+							
 						}
                         
-                        $(".results_list").append("There is " + dyagnose + " risk of "+ data2 + " that might be causing your symptoms. ");
+                        
 						console.log("YES");
 						});
 			}
