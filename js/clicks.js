@@ -78,6 +78,72 @@ var data = [
 				admitting: "Mon. 12-14h, Wen. 14-16h"	
 			}
         ];
+		
+		var a = [
+{
+  "location": {
+    "latitude": 41.993,
+    "longitude": 21.4280,
+    "name": "skopje"
+  },
+  "metrics": {
+    "CO": 110,
+    "Aerosol": 0.05,
+    "SulfurDioxide": 0
+  },
+  "date": "2016-04-23"
+},{
+  "location": {
+    "latitude": 41.993,
+    "longitude": 21.4280,
+    "name": "new york"
+  },
+  "metrics": {
+    "CO": 120,
+    "Aerosol": 0.35,
+    "SulfurDioxide": 1.10
+  },
+  "date": "2016-04-23"
+},{
+  "location": {
+    "latitude": 35.2820,
+    "longitude": 149.1287,
+    "name": "canberra"
+  },
+  "metrics": {
+    "CO": 60,
+    "Aerosol": 0.20,
+    "SulfurDioxide": 0
+  },
+  "date": "2016-04-23"
+}, {
+  "location": {
+    "latitude": 53.4808,
+    "longitude": 2.2426,
+    "name": "manchester city"
+  },
+  "metrics": {
+    "CO": 100,
+    "Aerosol": 0.15,
+    "SulfurDioxide": 0.15
+  },
+  "date": "2016-04-23"
+}, {
+  "location": {
+    "latitude": 22.9068,
+    "longitude": 43.1729,
+    "name": "rio"
+  },
+  "metrics": {
+    "CO": 65,
+    "Aerosol": 0.15,
+    "SulfurDioxide": 0
+  },
+  "date": "2016-04-23"
+}
+
+
+]
 
         var index = 0;
 
@@ -100,6 +166,20 @@ var data = [
                 index = parseInt(li.attr('index'));
                 showData(index);
             });
+			
+			
+			$().click();{
+				
+			}
+			
+			//$("#check").click(function(){
+             //   check();
+            //});
+			
+			$("#check").on("click",function(e){
+				check();
+			});
+
 
             function showData(index){
                 var item = data[index];
@@ -111,4 +191,43 @@ var data = [
 				$("#TextBox6").val(item.hospital);
 				$("#TextBox7").val(item.admitting);
             }
-        });
+			
+			
+			function check(){
+			var location = $("#location").val().toLowerCase();
+	var symptom = $("#symptom").val().toLowerCase();
+	var dyagnose = "";
+	var data2 = "";
+	$.each(data.items, function(i, item){
+                        var city = item.location.name;
+						if(location!="" && location == city){
+							if(symptom == "headache" || symptom == "dizziness" || symptom == "weakness" || symptom == "upset stomach" || symptom == "vomiting" || symptom == "chest pain" || symptom == "confusion"){
+								var data = item.metrics.CO;
+								if(data <= 70) dyagnose = "low";
+								else if(data >=71 && data <=94 ) dyagnose = "medium";
+								else if(data >=95 && data <=118 ) dyagnose = "high";
+								else if(data >=119 ) dyagnose = "alert";
+								data2 = "CO";
+							}
+							else if(symptom == "iritation of eyes" || symptom == "iritation of lungs" || symptom == "iritation of nose"){
+								var data = item.metrics.Aerosol;
+								if(data <= 0.35) dyagnose = "low";
+								else if(data >=0.36 && data <=0.47 ) dyagnose = "medium";
+								else if(data >=0.48 && data <=0.59 ) dyagnose = "high";
+								else if(data >=0.6 ) dyagnose = "alert";
+							}
+							else if(symptom == "asthma"){
+								var data = item.metrics.SulfurDioxide;
+								if(data <= 50) dyagnose = "low";
+								else if(data >=51 && data <=80 ) dyagnose = "medium";
+								else if(data >=81 && data <=90 ) dyagnose = "high";
+								else if(data >=91 ) dyagnose = "alert";
+							}
+							return;
+						}
+                        
+                        $(".results_list").append("There is " + dyagnose + " risk of "+ data2 + " that might be causing your symptoms. ");
+						console.log("YES");
+						});
+			}
+                });

@@ -39,7 +39,9 @@
        
     }
 
-
+    input{
+	margin: 10px;
+	}
 
     #doc{
          padding-left: 10%;
@@ -75,6 +77,11 @@
 
    
 </style>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -97,7 +104,7 @@
 					<li><a href="#aboutUs" class="scroll-link">ABOUT</a></li>
 					<li><a href="#services" class="scroll-link">MAPS</a></li>
 					<li><a href="#portfolio" class="scroll-link">SYMPTOMS CHECKER</a></li>
-					<li><a href="#contactUs" class="scroll-link">Doctors</a></li> 
+					<li><a href="#contactUs" class="scroll-link">FIND EXPERT</a></li> 
 	            </ul>
 	        </div>
 	        <!--/.navbar-collapse-->
@@ -113,7 +120,7 @@
 	
 		<div class="naslov">
 			<h1>
-				AIRCHECK
+				EnLife
 			</h1>	
 
            <!-- <h5 style="font-style:italic; color:grey">  Belive in us, we can gift you a better healthcare system for leading a healtier life.</h5>-->
@@ -170,19 +177,43 @@ can help you. Give us information about your symptoms and we will give you all t
 				
 		    <div class="heading text-center">
 								<!-- Heading -->
-								<h2 class="auto-style3">Please input your sympptoms:<br />
-                                    
+								<h2 class="auto-style3">Please input your location and symptoms:<table class="auto-style9">
+                                  <tr>
+                                      <td class="auto-style10" rowspan="2">
+                                          <span>Location</span>
+                                      </td>
+                                      <td class="auto-style11" class="right" rowspan="2">
+                                          <span class="doclbx">Symptom</span>
+                                      </td>
+                                      <td class="right">
+                                          &nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                      <td class="right">
+                                          &nbsp;</td>
+                                  </tr>
+                                  <tr >
+                                      <td class="auto-style10">
+                                          <input type="text" id="location"/>
+                                      </td>
+                                      <td colspan="2">
+                                          <input type="text" class="auto-style12" id="symptom"/>
+                                      </td>
+                                  </tr>
+                              </table>
 
+                              <input id="check" type="button" value="Check" style="
+    background-color: rgba(19, 113, 175, 0.89);
+    color: white;
+    border-color: rgba(19, 113, 175, 0.89);
+"/>
 
-
-
-                                </h2>
-                                <p class="auto-style3">&nbsp;</p>								
+ </h2>							  
 								</div>
 					
                           <div class="row">
 
-
+                                 <div ".results_list"> </div>
 
 
                               </div>
@@ -282,7 +313,7 @@ can help you. Give us information about your symptoms and we will give you all t
  <script src="js/clicks.js"></script>
     
 <script src="js/modernizr-latest.js"></script>
-<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>    
+<!--<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>  -->  
 <script src="js/bootstrap.min.js" type="text/javascript"></script>	 
 <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
 <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
